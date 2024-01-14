@@ -2,14 +2,14 @@
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-Aplicação CLI desenvolvida em Python que realiza o consumo o *endpoint* de CEP da Brasil API. 
+Aplicação CLI desenvolvida em Python que realiza o consumo da API fornecida pelo [ViaCEP](https://viacep.com.br/)
 
 ### Instalação
 
 Realize o clone desse repositório
 
 ```bash
-git clone
+git clone https://github.com/LBorgess/cepcli-py.git
 ```
 
 Acesse o diretório clonado e execute o comando abaixo para criar o ambiente virtual do Python.
@@ -53,6 +53,8 @@ pip install -r requirements.txt
 ```
 
 ### Execução
+
+Execute o comando abaixo em onde está `<cep>` informe o CEP desejado para consulta, podendo ser do formato 99999-999 ou 99999999
 
 ```bash
 python main.py <cep>
